@@ -1,6 +1,6 @@
-# todo
+# todo_app
 
-ToDo mobile app
+Todo app
 
 ## Getting Started
 
