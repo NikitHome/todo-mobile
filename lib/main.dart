@@ -1,13 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:todo/pages/home.dart';
-
+import 'package:todo_app/pages/home.dart';
+import 'package:todo_app/pages/main_screen.dart';
 
 void main() {
   runApp(MaterialApp(
     theme: ThemeData(
-      primaryColor: Colors.blue
+        primaryColor: const Color.fromRGBO(134, 174, 213, 1)
     ),
-    home: const Home(),
+    initialRoute: '/',
+    routes: {
+      '/': (context) => const MainScreen(),
+      '/todo': (context) => const Home()
+    },
   ));
 }
 
