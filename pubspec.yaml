@@ -30,6 +30,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  sqflite: any
+  path_provider: any
+  path: any
+  dotted_border: ^2.1.0
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -88,3 +92,14 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+  fonts:
+    - family: Merienda
+      fonts:
+        - asset: fonts/Merienda-Black.ttf
+        - asset: fonts/Merienda-Bold.ttf
+        - asset: fonts/Merienda-ExtraBold.ttf
+        - asset: fonts/Merienda-Light.ttf
+        - asset: fonts/Merienda-Medium.ttf
+        - asset: fonts/Merienda-Regular.ttf
+        - asset: fonts/Merienda-SemiBold.ttf
