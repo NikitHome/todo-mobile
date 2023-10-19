@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "154378170846",
+    "project_id": "todo-d5251",
+    "storage_bucket": "todo-d5251.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154378170846:android:963571828bb2dc7069ad4f",
+        "android_client_info": {
+          "package_name": "com.capybard.todo_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiAbFwJwrLx-FcHQ-aWDFwC_x0zF3h4QE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
